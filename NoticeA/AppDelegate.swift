@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let error = error {
                 print("ERROR")
                 return
+                
             }
             
             guard let result = result else { return }
